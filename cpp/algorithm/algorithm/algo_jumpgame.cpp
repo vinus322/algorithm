@@ -7,6 +7,7 @@
 
 using namespace std;
 
+//시간복잡도 : O(N^2)
 int dp[101][101];
 int map[101][101];
 int N;
