@@ -4,7 +4,7 @@
 #include<vector>
 #include<queue>
 #include<string>
-
+#include<climits>
 using namespace std;
 
 //시간복잡도 O(N^2);
@@ -33,10 +33,12 @@ int findJLIS(int aIdx, int bIdx) {
 
 	int maxValue = max(A[aIdx], B[bIdx]);
 
+	//A집합의 원소 선택
 	for (int next= aIdx+1; next <= n; next++) {
 		if (maxValue < A[next])  ret = max(ret, findJLIS(next, bIdx)+1);
 	}
 
+	//B집합의 원소 선택
 	for (int next = bIdx + 1; next <= m; next++) {
 		if (maxValue < B[next])  ret = max(ret, findJLIS(aIdx, next) + 1);
 	}
