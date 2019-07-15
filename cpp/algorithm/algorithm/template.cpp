@@ -1,3 +1,13 @@
+
+//
+//  CDJ_Alphabet_Cake.cpp
+//  algorithm
+//
+//  Created by Hubring on 2019. 2. 14..
+//  Copyright © 2019년 Hubring. All rights reserved.
+//
+
+
 #include<stdio.h>
 #include<iostream>
 #include<algorithm>
@@ -21,6 +31,10 @@ bool inboundary(int x, int y) {
 
 
 void solve() {
+
+	//priority_queue<int, vector<int>, greater<int>> Q; <-오름차순
+	/*sort(tsList.begin(), tsList.end(),
+		[](TimeSpan a, TimeSpan b) -> bool { return a.eatTime < b.eatTime;  }); 오름차순 */
 
 }
 
