@@ -32,6 +32,11 @@ bool inboundary(int x, int y) {
 
 void solve() {
 
+	for (int i = 0; i < N; i++) {
+		for (int j = 0; j < N; j++) {
+
+		}
+	}
 	//priority_queue<int, vector<int>, greater<int>> Q; <-오름차순
 	/*sort(tsList.begin(), tsList.end(),
 		[](TimeSpan a, TimeSpan b) -> bool { return a.eatTime < b.eatTime;  }); 오름차순 */
