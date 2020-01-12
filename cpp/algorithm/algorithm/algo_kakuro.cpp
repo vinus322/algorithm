@@ -202,7 +202,6 @@ void solve() {
 	}
 
 	search();
-
 	init();
 }
 

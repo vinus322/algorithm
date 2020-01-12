@@ -28,9 +28,6 @@ int rotationSize;
 int maxCnt = 0;
 
 
-
-
-
 bool inboundary(int x, int y) {
 	return x >= 0 && x < H&&y >= 0 && y < W;
 }
@@ -56,8 +53,6 @@ void getRotaionPoint() {
 		}
 	}
 }
-
-
 
 bool checkBlock(int i, int j, int k) {
 	bool canCover = true;
@@ -173,12 +168,4 @@ void solve() {
 }
 
 
-
-int main() {
-	int testCase;
-	scanf("%d", &testCase);
-
-	for (int i = 0; i < testCase; i++) {
-		solve();
-	}
-}
+  
