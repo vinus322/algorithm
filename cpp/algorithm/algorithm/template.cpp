@@ -1,12 +1,11 @@
 
 //
-//  CDJ_Alphabet_Cake.cpp
-//  algorithm
+//  algo_brackets2.cpp
+//  알고리즘 문제해결전략 - 조세푸스 문제
 //
-//  Created by Hubring on 2019. 2. 14..
-//  Copyright © 2019년 Hubring. All rights reserved.
+//  Created by Hubring on 2020. 2. 1.
+//  Copyright © 2020년 Hubring. All rights reserved.
 //
-
 
 #include<stdio.h>
 #include<iostream>
@@ -29,7 +28,12 @@ bool inboundary(int x, int y) {
 }
 
 
-
+/// <summary>
+///	조세푸스 문제 : 포위당한 N명이 원형으로 둘러선 뒤 
+/// 1번부터 차례로 자살하며 자살한 사람으로부터 시계방향으로 K번쨰 있는 사람이 죽을 경우 마지막 남은 두명의 위치 출력
+/// </summary>
+///<param name = 'n'>포위당한 병사수< / param>
+///<param name = 'k'> k: 시계방향으로 k번째 살아있는 사람< / param>
 void solve() {
 
 	for (int i = 0; i < N; i++) {
